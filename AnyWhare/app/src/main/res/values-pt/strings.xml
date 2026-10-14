@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Buscar país, cidade, endereço ou lat, lon</string>
+    <string name="clear">Limpar</string>
+    <string name="place_label">Local</string>
+    <string name="center_map">Centralizar mapa</string>
+    <string name="settings_title">Configurações</string>
+    <string name="back">Voltar</string>
+    <string name="copy">Copiar</string>
+    <string name="copied">Endereço copiado para a área de transferência</string>
+
+    <string name="mode_point">Ponto único</string>
+    <string name="mode_joystick">Joystick</string>
+    <string name="speed_label">Velocidade</string>
+    <string name="speed_unit">km/h</string>
+    <string name="speed_error">Digite um valor entre 0.1 e 500 km/h</string>
+    <string name="status_running">Simulando · %1$s km/h</string>
+    <string name="action_play">Reproduzir</string>
+    <string name="action_pause">Pausar</string>
+
+    <string name="error_no_point">Selecione primeiro um ponto no mapa</string>
+    <string name="error_permission">É necessária a permissão de localização precisa</string>
+    <string name="error_mock">Escolha o AnyWhare como app de localização simulada nas Opções do desenvolvedor</string>
+    <string name="error_search">Falha na busca. Verifique sua conexão</string>
+    <string name="error_no_results">Sem resultados</string>
+    <string name="error_coordinates">Coordenadas fora do intervalo (lat -90 a 90, lon -180 a 180)</string>
+    <string name="error_service">Não foi possível iniciar a simulação</string>
+    <string name="open_dev_options">Opções do desenvolvedor</string>
+
+    <string name="notif_channel">Simulação de localização</string>
+    <string name="notif_title">O AnyWhare está simulando sua localização</string>
+    <string name="notif_text">Toque para abrir o app</string>
+    <string name="notif_stop">Parar</string>
+
+    <string name="dir_n">N</string>
+    <string name="dir_e">L</string>
+    <string name="dir_s">S</string>
+    <string name="dir_w">O</string>
+
+    <string name="section_appearance">Aparência</string>
+    <string name="theme_system">Tema do sistema (padrão)</string>
+    <string name="theme_amoled">Escuro / Preto AMOLED</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_purple">Levemente roxo</string>
+    <string name="section_language">Idioma</string>
+
+    <string name="section_mock">Localização simulada</string>
+    <string name="mock_help">O Android só permite simular localização ao app escolhido nas Opções do desenvolvedor, em Selecionar app de localização simulada. Ative-as (toque 7 vezes no número da versão) e escolha o AnyWhare.</string>
+
+    <string name="section_permissions">Permissões</string>
+    <string name="perm_fine">Localização precisa: necessária para executar o serviço de localização em primeiro plano.</string>
+    <string name="perm_coarse">Localização aproximada: o Android a solicita junto com a precisa.</string>
+    <string name="perm_mock">Localização simulada: permite publicar posições de teste quando você escolhe o app nas Opções do desenvolvedor.</string>
+    <string name="perm_fgs">Serviço em primeiro plano: mantém a simulação ativa com a tela desligada.</string>
+    <string name="perm_notif">Notificações: mostra o aviso obrigatório do serviço e o botão Parar.</string>
+    <string name="perm_internet">Internet: usada apenas para baixar tiles do mapa e buscar locais.</string>
+
+    <string name="section_privacy">Privacidade e marco legal (GDPR / CCPA)</string>
+    <string name="privacy_zero_title">Política de dados zero</string>
+    <string name="privacy_zero_body">O AnyWhare NÃO coleta, rastreia, armazena nem vende dados pessoais ou de localização. Não há contas, análises nem anúncios. As configurações (tema e diálogo de boas-vindas) ficam apenas no seu dispositivo.</string>
+    <string name="providers_title">Provedores de terceiros</string>
+    <string name="providers_body">OpenStreetMap (tiles do mapa) e Nominatim (busca de locais) recebem requisições HTTPS padrão de forma anônima: sem identificadores de usuário e sem cookies de rastreamento. Como em qualquer requisição web, seu endereço IP é visível para eles e regido pela política de privacidade deles. Apenas o texto buscado e os tiles exibidos são enviados.</string>
+
+    <string name="section_about">Sobre e apoio</string>
+    <string name="license_text">O AnyWhare é software livre e gratuito, publicado sob a licença GNU GPL v3.0.</string>
+    <string name="repo_button">Ver repositório no GitHub</string>
+    <string name="donations_title">Doações</string>
+    <string name="donations_body">Opcional. Toque em um endereço para copiá-lo.</string>
+</resources>

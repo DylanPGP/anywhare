@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Search country, city, address or lat, lon</string>
+    <string name="clear">Clear</string>
+    <string name="place_label">Place</string>
+    <string name="center_map">Center map</string>
+    <string name="settings_title">Settings</string>
+    <string name="back">Back</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Address copied to clipboard</string>
+
+    <string name="mode_point">Single point</string>
+    <string name="mode_joystick">Joystick</string>
+    <string name="speed_label">Speed</string>
+    <string name="speed_unit">km/h</string>
+    <string name="speed_error">Enter a value between 0.1 and 500 km/h</string>
+    <string name="status_running">Simulating · %1$s km/h</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+
+    <string name="error_no_point">Select a point on the map first</string>
+    <string name="error_permission">Precise location permission is required</string>
+    <string name="error_mock">Choose AnyWhare as the mock location app in Developer options</string>
+    <string name="error_search">Search failed. Check your connection</string>
+    <string name="error_no_results">No results</string>
+    <string name="error_coordinates">Coordinates out of range (lat -90 to 90, lon -180 to 180)</string>
+    <string name="error_service">Could not start the simulation</string>
+    <string name="open_dev_options">Developer options</string>
+
+    <string name="notif_channel">Location simulation</string>
+    <string name="notif_title">AnyWhare is simulating your location</string>
+    <string name="notif_text">Tap to open the app</string>
+    <string name="notif_stop">Stop</string>
+
+    <string name="dir_n">N</string>
+    <string name="dir_e">E</string>
+    <string name="dir_s">S</string>
+    <string name="dir_w">W</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="theme_system">System theme (default)</string>
+    <string name="theme_amoled">Dark / AMOLED black</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_purple">Slightly purple</string>
+    <string name="section_language">Language</string>
+
+    <string name="section_mock">Mock location</string>
+    <string name="mock_help">Android only lets the app selected under Developer options, Select mock location app, simulate locations. Enable them (tap the build number 7 times) and choose AnyWhare.</string>
+
+    <string name="section_permissions">Permissions</string>
+    <string name="perm_fine">Precise location: required to run the foreground location service.</string>
+    <string name="perm_coarse">Approximate location: Android requests it together with the precise one.</string>
+    <string name="perm_mock">Mock location: allows publishing test positions once you pick the app in Developer options.</string>
+    <string name="perm_fgs">Foreground service: keeps the simulation alive with the screen off.</string>
+    <string name="perm_notif">Notifications: shows the mandatory service notice and the Stop button.</string>
+    <string name="perm_internet">Internet: only used to download map tiles and search places.</string>
+
+    <string name="section_privacy">Privacy and legal (GDPR / CCPA)</string>
+    <string name="privacy_zero_title">Zero data policy</string>
+    <string name="privacy_zero_body">AnyWhare does NOT collect, track, store or sell any personal or location data. There are no accounts, analytics or ads. Settings (theme and welcome dialog) are kept on your device only.</string>
+    <string name="providers_title">Third-party providers</string>
+    <string name="providers_body">OpenStreetMap (map tiles) and Nominatim (place search) receive standard HTTPS requests anonymously: no user identifiers and no tracking cookies. As with any web request, your IP address is visible to them and governed by their privacy policy. Only the text you search and the tiles you view are sent.</string>
+
+    <string name="section_about">About and support</string>
+    <string name="license_text">AnyWhare is free software, released under the GNU GPL v3.0 license.</string>
+    <string name="repo_button">View repository on GitHub</string>
+    <string name="donations_title">Donations</string>
+    <string name="donations_body">Optional. Tap an address to copy it.</string>
+</resources>

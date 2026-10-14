@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">AnyWhare</string>
+
+    <!-- Diálogo de primer inicio: texto fijo, no se traduce -->
+    <string name="welcome_title" translatable="false">Sin anuncios ni pagos</string>
+    <string name="welcome_body" translatable="false">Si te sirvió, regalame una extrella en la repo. Y si quieres\nDonaciones en ajustes (XMR/BTC) para la sub de Mullvad🥹🥀 Gracias!</string>
+    <string name="welcome_ok" translatable="false">ok bro👍🏻</string>
+    <string name="welcome_nop" translatable="false">nop</string>
+
+    <string name="lang_es" translatable="false">Español</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_pt" translatable="false">Português</string>
+
+    <string name="search_hint">Buscar país, ciudad, dirección o lat, lon</string>
+    <string name="clear">Borrar</string>
+    <string name="place_label">Lugar</string>
+    <string name="center_map">Centrar mapa</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="back">Atrás</string>
+    <string name="copy">Copiar</string>
+    <string name="copied">Dirección copiada al portapapeles</string>
+
+    <string name="mode_point">Punto único</string>
+    <string name="mode_joystick">Joystick</string>
+    <string name="speed_label">Velocidad</string>
+    <string name="speed_unit">km/h</string>
+    <string name="speed_error">Introduce un valor entre 0.1 y 500 km/h</string>
+    <string name="status_running">Simulando · %1$s km/h</string>
+    <string name="action_play">Reproducir</string>
+    <string name="action_pause">Pausar</string>
+
+    <string name="error_no_point">Selecciona primero un punto en el mapa</string>
+    <string name="error_permission">Se necesita el permiso de ubicación precisa</string>
+    <string name="error_mock">Elige AnyWhare como app de ubicación simulada en Opciones de desarrollador</string>
+    <string name="error_search">No se pudo buscar. Revisa tu conexión</string>
+    <string name="error_no_results">Sin resultados</string>
+    <string name="error_coordinates">Coordenadas fuera de rango (lat -90 a 90, lon -180 a 180)</string>
+    <string name="error_service">No se pudo iniciar la simulación</string>
+    <string name="open_dev_options">Opciones de desarrollador</string>
+
+    <string name="notif_channel">Simulación de ubicación</string>
+    <string name="notif_title">AnyWhare está simulando tu ubicación</string>
+    <string name="notif_text">Toca para abrir la app</string>
+    <string name="notif_stop">Detener</string>
+
+    <string name="dir_n">N</string>
+    <string name="dir_e">E</string>
+    <string name="dir_s">S</string>
+    <string name="dir_w">O</string>
+
+    <string name="section_appearance">Apariencia</string>
+    <string name="theme_system">Tema del sistema (predeterminado)</string>
+    <string name="theme_amoled">Oscuro / Negro AMOLED</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_purple">Ligeramente morado</string>
+    <string name="section_language">Idioma</string>
+
+    <string name="section_mock">Ubicación simulada</string>
+    <string name="mock_help">Android solo permite simular ubicación a la app elegida en Opciones de desarrollador, apartado Seleccionar app de ubicación simulada. Actívalas (toca 7 veces el número de compilación) y elige AnyWhare.</string>
+
+    <string name="section_permissions">Permisos</string>
+    <string name="perm_fine">Ubicación precisa: necesaria para ejecutar el servicio de ubicación en primer plano.</string>
+    <string name="perm_coarse">Ubicación aproximada: Android la solicita junto con la precisa.</string>
+    <string name="perm_mock">Ubicación simulada: permite publicar posiciones de prueba si eliges la app en Opciones de desarrollador.</string>
+    <string name="perm_fgs">Servicio en primer plano: mantiene viva la simulación con la pantalla apagada.</string>
+    <string name="perm_notif">Notificaciones: muestra el aviso obligatorio del servicio y el botón Detener.</string>
+    <string name="perm_internet">Internet: solo para descargar teselas del mapa y buscar lugares.</string>
+
+    <string name="section_privacy">Privacidad y marco legal (GDPR / CCPA)</string>
+    <string name="privacy_zero_title">Política de datos cero</string>
+    <string name="privacy_zero_body">AnyWhare NO recopila, rastrea, almacena ni vende ningún dato personal ni de ubicación. No hay cuentas, analíticas ni anuncios. Los ajustes (tema y diálogo de bienvenida) se guardan solo en tu dispositivo.</string>
+    <string name="providers_title">Proveedores de terceros</string>
+    <string name="providers_body">OpenStreetMap (teselas del mapa) y Nominatim (búsqueda de lugares) reciben peticiones HTTPS estándar de forma anónima: sin identificadores de usuario ni cookies de rastreo. Como en cualquier petición web, tu dirección IP es visible para ellos y se rige por su política de privacidad. Solo se envía el texto que buscas y las teselas que ves.</string>
+
+    <string name="section_about">Acerca de y apoyo</string>
+    <string name="license_text">AnyWhare es software libre y gratuito, publicado bajo la licencia GNU GPL v3.0.</string>
+    <string name="repo_button">Ver repositorio en GitHub</string>
+    <string name="donations_title">Donaciones</string>
+    <string name="donations_body">Opcionales. Toca una dirección para copiarla.</string>
+</resources>
